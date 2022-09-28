@@ -11,16 +11,18 @@
     <h1>Login</h1>
     <p>Bem vindo(a). Faça seu login para acessar a conta.</p>
     <form action="cadastro.php" method="post" autocomplete="on">
-    
+    <fieldset>
     <p>
-        <label for="inome">Nome Completo:</label> <input type="text" name="nome" id="inome" required maxlength="35">
+        <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" autocomplete="email" required maxlength="35">
     </p>
 
     <p>
         <label for="iemail">Email:</label> <input type="email" name="email" id="iemail" required>
     </p>
-   
+   <p>
     <label for="isenha">Senha:</label><input type="password" name="senha" id="isenha" required minlength="6" maxlength="8" autocomplete="new-password">
+   </p>
+   </fieldset>
      
     <p>
         <input type="submit" value="Enviar">
