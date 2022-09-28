@@ -13,12 +13,15 @@
     <form action="cadastro.php" method="post" autocomplete="on">
     
     <p>
-        <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" required>
+        <label for="inome">Nome Completo:</label> <input type="text" name="nome" id="inome" required maxlength="35">
     </p>
+
     <p>
-        <label for="isobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="isobrenome" required>
+        <label for="iemail">Email:</label> <input type="email" name="email" id="iemail" required>
     </p>
-    <label for="isenha">Senha</label><input type="password" name="senha" id="isenha" required minlength="6" maxlength="8" autocomplete="new-password">
+   
+    <label for="isenha">Senha:</label><input type="password" name="senha" id="isenha" required minlength="6" maxlength="8" autocomplete="new-password">
+     
     <p>
         <input type="submit" value="Enviar">
         <input type="reset"value="Limpar">
