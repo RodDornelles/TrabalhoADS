@@ -8,19 +8,17 @@
     <link rel="stylesheet" href="estilos/style.css"> 
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body>
-    <main>
-    <section id="login">
-        <div id="imagem">
-            Foto    <!--Imagem-->
-        </div>
-        <div id="formulario">
-            <h1>Login</h1>
-            <p>Bem vindo(a). Faça seu login para acessar a conta.</p>
-            <form action="login.php" method="post">
-            </form>        
-        </div>        
-</section>
-</main>
+<body>   
+
+    <h1>Login</h1>
+    <p>Bem vindo(a). Faça seu login para acessar a conta.</p>
+    <form action="cadastro.php" method="post">
+    
+    <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+    <p><label for="isobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+    <p><input type="submit" value="Enviar">
+        <input type="reset"value="Limpar">
+    </p>    
+    </form>        
 </body>
 </html>
