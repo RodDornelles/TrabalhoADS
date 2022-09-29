@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* configuração add para dispositivo movel(portrait)   */
+
+body {
+    background-image: url(../Img/portrait.png);
+    background-position: center bottom;
+}

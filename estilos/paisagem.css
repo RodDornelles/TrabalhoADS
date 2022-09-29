@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* configuração add para dispositivo na horizontal (landscape)  */
+
+body {
+    background-image: url(../Img/landscape.png);
+    background-position: left bottom;
+}
