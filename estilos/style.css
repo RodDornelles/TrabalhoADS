@@ -6,13 +6,14 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Img/pexels-mnm-zameer-3308588\ -\ Copia.jpg);
 }
 
-html, body {
+html, body  {
     width: 100vw;
     height: 100vh;
     background-color:black ;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -20,4 +21,8 @@ h1 {
     color:whitesmoke ;
     text-shadow: 3px 3px 0px rgb(49, 48, 48);
     padding: 10px;
+}   
+
+p{
+    color: whitesmoke;
 }
