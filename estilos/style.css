@@ -1,33 +1,66 @@
-@charset "UTF-8";
-
-/* Configurações gerais */
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-size: 1.0em;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    
-}
-
-body, html{
-    width: 100vw;
-    height: 100vh;
-
-}
-
-body  {
-    background: url(../Img/pexels-mnm-zameer-3308588\ -\ Copia.jpg) no-repeat;
-}
-
-main {
-    background-color: whitesmoke;
-    width: 90vw;
-    margin: auto;
-    border-radius: 10px;
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    height: 80vh;
+    margin-top: 5rem;
+    background-image: url();  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 10px;
-
-}
-
-
+  }
+  
+  .form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 25px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .checkbox {
+    width: 20px !important;
+  }
+  
+  .first-section input {
+    width: 85%;
+    height: 25px;
+    margin-left: 5px;
+  }
+  
+  .second-section input{
+    width: 80%;
+    height: 25px;
+    margin-left: 5px;
+  }
+  
+  .form h1, p {
+    text-align: center;
+  }
+  button {
+    border: none;
+    color: white;
+    background: #1560BD;
+    padding: 8px 25px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto 10px auto;
+    width: 120px;
+  }
+  
+  .second-section {
+    margin-top: 15px;
+  }
+  
+  .proficiency {
+    display: flex;
+    align-items: center;
+  }
+  
+  .terms {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }

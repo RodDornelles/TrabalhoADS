@@ -5,34 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation portrait)">
-    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
-
+    
 <title>Login</title>
 </head>
 <body>   
-    <main>
-    <h1>Login para cadastro</h1>
-    <p>Bem vindo(a). Faça seu login para acessar a conta.</p>
+    <div class="form">
+    <h1>Cadastro para Curso de PowerBi</h1>
+    <p>Preencha o cadastro abaixo para se inscrever no curso de PowerBi..</p>
     <form action="cadastro.php" method="post" autocomplete="on">
-    <fieldset>
-    <p>
-        <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" autocomplete="email" required maxlength="35">
-    </p>
+    <fieldset class="Primeira-parte">
+      <legend>Contato</legend>
+      <label for="name">Nome</label>
+      <input autofocus type="text" id="iname" name="name" autofocus autocomplete="on" required> <br><br>
+      <label for="email">Email</label>
+      <input type="email" id="iemail"> <br><br>
+      <label for="tel">Telefone</label>
+      <input type="tel" id="itel" placeholder=""> <br><br>
+      <label for="isenha">Senha:</label><input type="password" name="senha" id="isenha" required minlength="6" maxlength="8" autocomplete="new-password">  
+    </fieldset>
+    <fieldset class="Segunda-parte">
+        <legend>Informações pessoais</legend>
+        <label for="dob">Data Nascimento</label>
+        <input type="date" id="dob"> <br><br>
+          <label for="gender">Genero??</label>
+        <input list="genders" name="gender" id="gender">
+        <datalist id="genders">
+          <option value="femin">
+          <option value="masc">
+          <option value="outro">
+        </datalist><br><br>
+       <div class="proficiency">
+          <label for="profeciency">Proficiência</label>
+        <input type="range" value="4" max="10" id="profeciency" name="profeciency">
+       </div>
+       </fieldset>
 
-    <p>
-        <label for="iemail">Email:</label> <input type="email" name="email" id="iemail" required>
-    </p>
-   <p>
-    <label for="isenha">Senha:</label><input type="password" name="senha" id="isenha" required minlength="6" maxlength="8" autocomplete="new-password">
-   </p>
-   </fieldset>
-     
-    <p>
-        <input type="submit" value="Enviar">
-        <input type="reset"value="Limpar">
-    </p>    
+       <div class="termos">
+        <input type="checkbox" id="scales" name="scales" class="checkbox">
+      <label for="scales">Eu concordo com os termos e condições de uso.</label>
+     </div>  
+     <input type="submit" value="Enviar">
+     <input type="reset"value="Limpar">
     </form>  
-</main>      
+</div>      
 </body>
 </html>
