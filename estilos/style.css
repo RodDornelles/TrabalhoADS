@@ -5,7 +5,7 @@
   body {
     height: 80vh;
     margin-top: 5rem;
-    background-image: url();  
+    background-image: url(../estilos/pexels-mubaz-basheer-916017.jpg);  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,13 +24,13 @@
     width: 20px !important;
   }
   
-  .first-section input {
+  .Primeira-parte input {
     width: 85%;
     height: 25px;
     margin-left: 5px;
   }
   
-  .second-section input{
+  .Segunda-parte input{
     width: 80%;
     height: 25px;
     margin-left: 5px;
@@ -54,12 +54,12 @@
     margin-top: 15px;
   }
   
-  .proficiency {
+  .Proficiência {
     display: flex;
     align-items: center;
   }
   
-  .terms {
+  .termos {
     margin-top: 15px;
     display: flex;
     align-items: center;
