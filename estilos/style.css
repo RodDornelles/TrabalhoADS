@@ -1,22 +1,25 @@
 * {
     font-family: 'Montserrat', sans-serif;
+   
   }
   
   body {
     height: 80vh;
     margin-top: 5rem;
-    background-image: url(../estilos/fundocurso.jpg); 
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(194, 201, 200, 0.63) 70%), url(../estilos/fundocurso.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 1px;
+    color: #F7C611;
+    font-weight: bold;
   }
   
   .form {
     background-color: rgba(80, 79, 79, 0.6);
-    border-radius: 5px;
-    padding: 15px 25px;
-    width: 80%;
+    border-radius: 25px;
+    padding: 10px 10px;
+    width: 70%;
     margin: 0 auto;
   }
   
@@ -26,14 +29,14 @@
   
   .Primeira-parte input {
     width: 85%;
-    height: 25px;
-    margin-left: 5px;
+    height: 17px;
+    margin-left: 20px;
   }
   
   .Segunda-parte input{
     width: 80%;
     height: 25px;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   
   .form h1, p {
@@ -49,11 +52,7 @@
     margin: 20px auto 10px auto;
     width: 120px;
   }
-  
-  .second-section {
-    margin-top: 15px;
-  }
-  
+
   .Proficiência {
     display: flex;
     align-items: center;
