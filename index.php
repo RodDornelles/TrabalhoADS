@@ -2,19 +2,7 @@
 
     if(isset($_POST['submit']))
     {
-       //print_r('Nome: ' . $_POST['nome']);
-       //print_r('<br>');
-       //print_r('E-mail: ' . $_POST['email']);
-       //print_r('<br>');
-       //print_r('Telefone: ' . $_POST['tel']);
-       //print_r('<br>');
-       //print_r('Senha: ' . $_POST['senha']);
-       //print_r('<br>');
-       //print_r('Nascimento: ' . $_POST['data_nascimento']);
-       //print_r('<br>');
-       //print_r('Genero: ' . $_POST['gender']);
-       //print_r('<br>');
-       //print_r('Conhecimento: ' . $_POST['profeciency']);
+       
 
       include_once('config.php');
 
