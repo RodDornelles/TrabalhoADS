@@ -36,36 +36,39 @@
     <form action="index.php" method="POST">
     <fieldset class="Primeira-parte">
       <legend>Contato</legend>
-      <label for="nome" class="inputUser">Nome</label>
-      <input type="text" name="nome" id="nome" class="inputUser" required> <br><br>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="iemail"> <br><br>
-      <label for="tel">Telefone</label>
-      <input type="tel" name="tel" id="itel" placeholder="(47)93323-2929" pattern="\(\d{2}\)\d{4,5}-\d{4}$" required> <br><br>
+      <br>
+      <label for="nome" class="inputUser">Nome:</label>
+      <input type="text" name="nome" id="nome" class="inputUser" required> <br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="iemail"> <br>
+      <label for="tel">Fone:</label>
+      <input type="tel" name="tel" id="itel" placeholder="(47)93323-2929" pattern="\(\d{2}\)\d{4,5}-\d{4}$" required> <br>
       <label for="isenha">Senha:</label>
       <input type="password" name="senha" id="isenha" required minlength="6" maxlength="8" autocomplete="new-password">  
     </fieldset>
+    <br>
     <fieldset class="Segunda-parte">
         <legend>Informações pessoais</legend>
-        <label for="dob">Data Nascimento</label>
-        <input type="date" name="data_nascimento" id="dob"> <br><br>
-          <label for="gender">Genero</label>
+        <br>
+        <label for="dob">Data Nascimento:</label>
+        <input type="date" name="data_nascimento" id="dob"> <br>
+          <label for="gender">Genero:</label>
         <input list="genders" name="gender" id="gender">
         <datalist id="genders">
           <option value="Masculino">
           <option value="Feminino">
           <option value="Outro">
           <option value="Prefiro não responder">
-        </datalist><br><br>
+        </datalist><br>
        <div class="Proficiência">
-        <label for="profeciency">Proficiência</label>
+        <label for="profeciency">Proficiência:</label>
         <input list="profeciencyes" name="profeciency" id="profeciency">
         <datalist id="profeciencyes">
           <option value="Sou expert e procuro formação">
           <option value="Tenho conhecimento mas quero aprender mais">
           <option value="Uso a ferramenta casualmente e quero aprender">
           <option value="Não tenho conhecimento da ferramenta">
-        </datalist><br><br>
+        </datalist><br>
        </div>
        </fieldset>
        <div class="termos">
