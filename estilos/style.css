@@ -5,43 +5,68 @@
   
   body {
     height: 80vh;
-    margin-top: 5rem;
+    margin-top: 11.5rem;
     background-image: linear-gradient(to bottom, transparent 0%, rgba(194, 201, 200, 0.63) 70%), url(../estilos/fundocurso.jpg); 
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
     padding: 1px;
-    color: #F7C611;
+    color: #daae0f;
     font-weight: bold;
+  
   }
   
   .form {
     background-color: rgba(80, 79, 79, 0.6);
     border-radius: 25px;
     padding: 10px 10px;
-    width: 70%;
+    width: 47%;
     margin: 0 auto;
   }
   
   .checkbox {
     width: 20px !important;
   }
+
+  .input{
+
+    text-align: right;
+    
+    }
   
   .Primeira-parte input {
     width: 85%;
     height: 17px;
     margin-left: 20px;
+    display: flex;
   }
-  
+
+  .Primeira-parte label {
+    width: 85%;
+    height: 17px;
+    margin-left: 20px;
+    display: flex;
+  }
+
   .Segunda-parte input{
-    width: 80%;
-    height: 25px;
-    margin-left: 10px;
+    width: 85%;
+    height: 17px;
+    margin-left: 20px;
+    display: flex;
   }
-  
+
+  .Segunda-parte label{
+    width: 85%;
+    height: 17px;
+    margin-left: 20px;
+    display: flex;
+  }
+
+
   .form h1, p {
     text-align: center;
   }
+
   button {
     border: none;
     color: white;
@@ -53,10 +78,6 @@
     width: 120px;
   }
 
-  .Proficiência {
-    display: flex;
-    align-items: center;
-  }
   
   .termos {
     margin-top: 15px;
